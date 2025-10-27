@@ -1,4 +1,4 @@
-namespace HomeTaskFor27._10._25;
+﻿namespace HomeTaskFor27._10._25;
 
 public abstract class Base
 {
