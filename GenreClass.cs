@@ -1,11 +1,12 @@
-public class GenreClass : BaseClass
+namespace HomeTaskFor27._10._25;
+
+public class Genre :Base
 {
-    private string _name;
-    public GenreClass(string Name)
-   {
-       _name = Name;
-
-
+    public static int _id;
+    public Genre(string name):base(name)
+    {
+        Name = name;
+        _id++;
+        Id = _id;
     }
-
 }
